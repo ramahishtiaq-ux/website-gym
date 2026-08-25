@@ -7,7 +7,7 @@
     "dev": "cd artifacts/forge-athletics && npx vite",
     "dev:api": "cd artifacts/api-server && node src/index.ts",
     "dev:sandbox": "cd artifacts/mockup-sandbox && npx vite",
-    "build": "cd artifacts/forge-athletics && npx vite build",
+    "build": "cd artifacts/forge-athletics && npm run build",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "devDependencies": {
