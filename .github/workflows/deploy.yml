@@ -37,21 +37,26 @@ jobs:
           version: 9
 
       - name: Install dependencies
+        working-directory: artifacts/forge-athletics
         run: pnpm install --no-frozen-lockfile
 
       - name: Build frontend
+        working-directory: artifacts/forge-athletics
         run: pnpm run build
         env:
           BASE_PATH: /website-gym/
+/
+
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'artifacts/forge-athletics/dist/public'
+       with:
+  path: 'artifacts/forge-athletics/dist'
 
+        steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
