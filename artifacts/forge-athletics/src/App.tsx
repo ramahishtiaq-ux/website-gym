@@ -218,12 +218,12 @@ function IntroSection() {
           </p>
           <div className="mt-10 grid gap-8 border-t border-[#CBD5E1] pt-8 sm:grid-cols-2">
             <div>
-              <p className="font-display text-4xl font-bold text-[#7CFF00]" style={{textShadow: '0 0 20px rgba(124,255,0,0.3)'}}>01</p>
+              <p className="font-display text-4xl font-bold text-[#7CFF00]" style={{ textShadow: '0 0 20px rgba(124,255,0,0.3)' }}>01</p>
               <p className="mt-2 text-sm font-semibold text-[#1E293B]">Assess the starting point</p>
               <p className="mt-2 text-sm leading-6 text-[#64748B]">We learn how you move, what you want, and what has kept you stuck.</p>
             </div>
             <div>
-              <p className="font-display text-4xl font-bold text-[#7CFF00]" style={{textShadow: '0 0 20px rgba(124,255,0,0.3)'}}>02</p>
+              <p className="font-display text-4xl font-bold text-[#7CFF00]" style={{ textShadow: '0 0 20px rgba(124,255,0,0.3)' }}>02</p>
               <p className="mt-2 text-sm font-semibold text-[#1E293B]">Build the next version</p>
               <p className="mt-2 text-sm leading-6 text-[#64748B]">A simple progression you can repeat, measure, and trust.</p>
             </div>
@@ -574,7 +574,7 @@ function SignupModal({ plan, onClose }: { plan: Plan; onClose: () => void }) {
       <div role="dialog" aria-modal="true" aria-labelledby="signup-title" className="max-h-[92dvh] w-full max-w-lg overflow-y-auto bg-[#F0F4F8] p-6 text-[#0A0F1E] shadow-2xl sm:p-9">
         <div className="flex items-start justify-between gap-5">
           <div>
-            <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#16A34A]">{stage === 'form' ? 'Start at Forge' : 'You're on the list'}</p>
+            <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#16A34A]">{stage === 'form' ? 'Start at Forge' : "You're on the list"}</p>
             <h2 id="signup-title" data-testid="text-signup-heading" className="mt-3 font-display text-5xl font-bold uppercase leading-[.86]">{stage === 'form' ? 'Book your intro.' : 'Nice work.'}</h2>
           </div>
           <button type="button" onClick={onClose} data-testid="button-close-signup" aria-label="Close signup form" className="grid h-10 w-10 shrink-0 place-items-center border border-[#CBD5E1] text-[#1E293B] transition-colors hover:bg-[#E8EDF2] focus:outline-none focus:ring-2 focus:ring-[#7CFF00]"><X size={18} aria-hidden="true" /></button>
