@@ -67,79 +67,80 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
-/* FORGE ATHLETICS — industrial editorial / warm graphite + safety orange */
+/* FORGE ATHLETICS — premium dark + electric neon green */
 :root {
-  --button-outline: rgba(0, 0, 0, 0.1);
-  --badge-outline: rgba(0, 0, 0, 0.05);
+  --button-outline: rgba(0, 0, 0, 0.15);
+  --badge-outline: rgba(0, 0, 0, 0.08);
 
   /* Automatic computation of border around primary / danger buttons */
   --opaque-button-border-intensity: -8; /* In terms of percentages */
 
   /* Backgrounds applied on top of other backgrounds when hovered/active */
-  --elevate-1: rgba(0, 0, 0, 0.03);
-  --elevate-2: rgba(0, 0, 0, 0.08);
+  --elevate-1: rgba(0, 0, 0, 0.04);
+  --elevate-2: rgba(0, 0, 0, 0.1);
 
-  --background: 36 33% 93%;
-  --foreground: 20 16% 15%;
-  --border: 31 13% 79%;
-  --card: 38 38% 97%;
-  --card-foreground: 20 16% 15%;
-  --card-border: 31 16% 84%;
-  --sidebar: 28 22% 19%;
-  --sidebar-foreground: 37 31% 94%;
-  --sidebar-border: 30 13% 29%;
-  --sidebar-primary: 18 91% 54%;
-  --sidebar-primary-foreground: 30 24% 11%;
-  --sidebar-accent: 28 18% 25%;
-  --sidebar-accent-foreground: 37 31% 94%;
-  --sidebar-ring: 18 91% 54%;
-  --popover: 38 38% 97%;
-  --popover-foreground: 20 16% 15%;
-  --popover-border: 31 16% 84%;
-  --primary: 18 91% 54%;
-  --primary-foreground: 30 24% 11%;
-  --secondary: 28 22% 19%;
-  --secondary-foreground: 38 38% 97%;
-  --muted: 35 20% 87%;
-  --muted-foreground: 23 10% 43%;
-  --accent: 47 87% 67%;
-  --accent-foreground: 20 16% 15%;
-  --destructive: 0 65% 45%;
-  --destructive-foreground: 38 38% 97%;
-  --input: 31 16% 73%;
-  --ring: 18 91% 54%;
-  --chart-1: 18 91% 54%;
-  --chart-2: 47 87% 67%;
-  --chart-3: 161 35% 42%;
-  --chart-4: 28 22% 19%;
-  --chart-5: 35 20% 68%;
+  /* Light mode — cool steel with neon lime accent */
+  --background: 220 18% 94%;
+  --foreground: 220 20% 10%;
+  --border: 220 12% 80%;
+  --card: 220 22% 98%;
+  --card-foreground: 220 20% 10%;
+  --card-border: 220 14% 85%;
+  --sidebar: 222 30% 14%;
+  --sidebar-foreground: 120 100% 88%;
+  --sidebar-border: 222 20% 22%;
+  --sidebar-primary: 84 100% 50%;
+  --sidebar-primary-foreground: 222 30% 8%;
+  --sidebar-accent: 222 25% 20%;
+  --sidebar-accent-foreground: 120 100% 88%;
+  --sidebar-ring: 84 100% 50%;
+  --popover: 220 22% 98%;
+  --popover-foreground: 220 20% 10%;
+  --popover-border: 220 14% 85%;
+  --primary: 84 100% 50%;
+  --primary-foreground: 222 30% 8%;
+  --secondary: 222 30% 14%;
+  --secondary-foreground: 220 22% 98%;
+  --muted: 220 15% 88%;
+  --muted-foreground: 220 10% 45%;
+  --accent: 150 80% 45%;
+  --accent-foreground: 222 30% 8%;
+  --destructive: 0 72% 50%;
+  --destructive-foreground: 220 22% 98%;
+  --input: 220 12% 74%;
+  --ring: 84 100% 50%;
+  --chart-1: 84 100% 50%;
+  --chart-2: 150 80% 45%;
+  --chart-3: 200 90% 55%;
+  --chart-4: 222 30% 14%;
+  --chart-5: 220 15% 65%;
 
   --app-font-sans: 'Space Grotesk', sans-serif;
   --app-font-serif: 'Barlow Condensed', sans-serif;
   --app-font-mono: 'Space Grotesk', sans-serif;
   --radius: 0.25rem;
-  --shadow-2xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0); /*replace with H S L */
-  --shadow-xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0); /*replace with H S L */
+  --shadow-2xs: 0px 2px 0px 0px hsl(84 100% 50% / 0);
+  --shadow-xs: 0px 2px 0px 0px hsl(84 100% 50% / 0);
   --shadow-sm:
-    0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0),
-    0px 1px 2px -1px hsl(202.8169 89.1213% 53.1373% / 0);
+    0px 2px 0px 0px hsl(84 100% 50% / 0),
+    0px 1px 2px -1px hsl(84 100% 50% / 0);
   --shadow:
-    0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0),
-    0px 1px 2px -1px hsl(202.8169 89.1213% 53.1373% / 0);
+    0px 2px 0px 0px hsl(84 100% 50% / 0),
+    0px 1px 2px -1px hsl(84 100% 50% / 0);
   --shadow-md:
-    0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0),
-    0px 2px 4px -1px hsl(202.8169 89.1213% 53.1373% / 0);
+    0px 2px 0px 0px hsl(84 100% 50% / 0),
+    0px 2px 4px -1px hsl(84 100% 50% / 0);
   --shadow-lg:
-    0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0),
-    0px 4px 6px -1px hsl(202.8169 89.1213% 53.1373% / 0);
+    0px 2px 0px 0px hsl(84 100% 50% / 0),
+    0px 4px 6px -1px hsl(84 100% 50% / 0);
   --shadow-xl:
-    0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0),
-    0px 8px 10px -1px hsl(202.8169 89.1213% 53.1373% / 0);
-  --shadow-2xl: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0);
+    0px 2px 0px 0px hsl(84 100% 50% / 0),
+    0px 8px 10px -1px hsl(84 100% 50% / 0);
+  --shadow-2xl: 0px 2px 0px 0px hsl(84 100% 50% / 0);
   --tracking-normal: 0em;
   --spacing: 0.25rem;
 
-  /* Automatically computed borders - intensity can be controlled by the user by the --opaque-button-border-intensity setting */
+  /* Automatically computed borders */
 
   /* Fallback for older browsers */
   --sidebar-primary-border: hsl(var(--sidebar-primary));
@@ -192,8 +193,8 @@
 }
 
 .dark {
-  --button-outline: rgba(255, 255, 255, 0.1);
-  --badge-outline: rgba(255, 255, 255, 0.05);
+  --button-outline: rgba(255, 255, 255, 0.08);
+  --badge-outline: rgba(255, 255, 255, 0.04);
 
   --opaque-button-border-intensity: 9; /* In terms of percentages */
 
@@ -201,42 +202,43 @@
   --elevate-1: rgba(255, 255, 255, 0.04);
   --elevate-2: rgba(255, 255, 255, 0.09);
 
-  --background: 24 18% 12%;
-  --foreground: 37 31% 94%;
-  --border: 30 13% 29%;
-  --card: 28 22% 19%;
-  --card-foreground: 37 31% 94%;
-  --card-border: 30 13% 29%;
-  --sidebar: 24 18% 12%;
-  --sidebar-foreground: 37 31% 94%;
-  --sidebar-border: 30 13% 29%;
-  --sidebar-primary: 18 91% 54%;
-  --sidebar-primary-foreground: 30 24% 11%;
-  --sidebar-accent: 28 22% 23%;
-  --sidebar-accent-foreground: 37 31% 94%;
-  --sidebar-ring: 18 91% 54%;
-  --popover: 28 22% 19%;
-  --popover-foreground: 37 31% 94%;
-  --popover-border: 30 13% 29%;
-  --primary: 18 91% 54%;
-  --primary-foreground: 30 24% 11%;
-  --secondary: 37 31% 94%;
-  --secondary-foreground: 24 18% 12%;
-  --muted: 28 18% 25%;
-  --muted-foreground: 35 14% 70%;
-  --accent: 47 87% 67%;
-  --accent-foreground: 20 16% 15%;
-  --destructive: 0 65% 55%;
-  --destructive-foreground: 37 31% 94%;
+  /* Dark mode — deep charcoal black + electric neon lime */
+  --background: 222 28% 7%;
+  --foreground: 0 0% 95%;
+  --border: 222 18% 18%;
+  --card: 222 25% 11%;
+  --card-foreground: 0 0% 95%;
+  --card-border: 222 18% 18%;
+  --sidebar: 222 28% 7%;
+  --sidebar-foreground: 0 0% 95%;
+  --sidebar-border: 222 18% 18%;
+  --sidebar-primary: 84 100% 50%;
+  --sidebar-primary-foreground: 222 28% 7%;
+  --sidebar-accent: 222 22% 14%;
+  --sidebar-accent-foreground: 0 0% 95%;
+  --sidebar-ring: 84 100% 50%;
+  --popover: 222 25% 11%;
+  --popover-foreground: 0 0% 95%;
+  --popover-border: 222 18% 18%;
+  --primary: 84 100% 50%;
+  --primary-foreground: 222 28% 7%;
+  --secondary: 0 0% 92%;
+  --secondary-foreground: 222 28% 7%;
+  --muted: 222 22% 16%;
+  --muted-foreground: 220 10% 62%;
+  --accent: 150 80% 48%;
+  --accent-foreground: 222 28% 7%;
+  --destructive: 0 72% 58%;
+  --destructive-foreground: 0 0% 95%;
 
-  /* Used as the border around inputs. Dark mode: Should be a border that is light enough to have high contrast when rendered on a --card background. More contrast than standard --border */
-  --input: 30 13% 36%;
-  --ring: 18 91% 54%;
-  --chart-1: 18 91% 54%;
-  --chart-2: 47 87% 67%;
-  --chart-3: 161 35% 52%;
-  --chart-4: 37 31% 94%;
-  --chart-5: 35 14% 59%;
+  /* Used as the border around inputs. */
+  --input: 222 18% 24%;
+  --ring: 84 100% 50%;
+  --chart-1: 84 100% 50%;
+  --chart-2: 150 80% 48%;
+  --chart-3: 200 90% 60%;
+  --chart-4: 0 0% 92%;
+  --chart-5: 220 15% 55%;
 
   --shadow-2xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0);
   --shadow-xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0);
@@ -287,8 +289,8 @@ body {
 }
 
 .forge-grid {
-  background-image: linear-gradient(rgba(72, 55, 42, 0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(72, 55, 42, 0.08) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(124, 255, 0, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(124, 255, 0, 0.06) 1px, transparent 1px);
   background-size: 34px 34px;
 }
 
@@ -336,7 +338,7 @@ body {
 
 .hover-lift:hover {
   transform: translateY(-5px);
-  box-shadow: 0 18px 36px rgba(47, 34, 25, 0.12);
+  box-shadow: 0 18px 36px rgba(124, 255, 0, 0.12);
 }
 
 .image-wash {
@@ -347,7 +349,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(120deg, rgba(32, 25, 20, .58), transparent 58%);
+  background: linear-gradient(120deg, rgba(10, 15, 30, .58), transparent 58%);
   pointer-events: none;
 }
 
